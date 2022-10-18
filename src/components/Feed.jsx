@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import { Box } from "@mui/system";
 const Feed = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <Box bgcolor="pink" flex={8} p={2}>
+      Feed
+    </Box>
+  );
+};
 
-export default Feed
+export default Feed;
